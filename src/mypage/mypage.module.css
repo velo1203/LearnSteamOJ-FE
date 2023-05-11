@@ -1,0 +1,37 @@
+.myPage {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.myPage h1 {
+    font-size: 2.5rem;
+    color: #3461FF;
+    margin-bottom: 30px;
+}
+
+.myPage h2 {
+    font-size: 2rem;
+    color: #A4B2CB;
+    margin-bottom: 20px;
+}
+
+.solvedProblems,
+.userInfo {
+    background-color: #fff;
+    border: 1px solid #A4B2CB;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.solvedProblems li,
+.userInfo p {
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.solvedProblems ul {
+    padding-left: 20px;
+}

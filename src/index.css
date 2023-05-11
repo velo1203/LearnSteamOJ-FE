@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FAFCFE;
+  font-family: 'Jua', sans-serif;
+}
+@font-face {
+  font-family: 'Jua';
+  src: url('../public/fonts/BMJUA_ttf.ttf');
 }
 
 code {

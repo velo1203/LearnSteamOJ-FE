@@ -1,0 +1,43 @@
+.codeEditorContainer {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 2px solid #F2F3F7;
+    padding: 20px;
+}
+
+.editorMenu {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.menuButton {
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.menuButton:hover {
+    opacity: 0.8;
+}
+
+.menuDelete {
+    background-color: rgb(255, 88, 88);
+}
+.menuCopy {
+    background-color: #3461FF;
+}
+.menuOpenfile {
+    background-color: #3461FF;
+}
+.menuSubmit {
+    background-color: rgb(36, 155, 0);
+}

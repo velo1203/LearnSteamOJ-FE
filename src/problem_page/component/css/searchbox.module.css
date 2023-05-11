@@ -1,0 +1,132 @@
+/* styles.module.css */
+
+.headerSearchbox {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerSearchbox > h1 {
+    color: #3461FF;
+    font-size: 28px;
+}
+
+.searchForm {
+    position: relative;
+    display: inline-flex;
+}
+
+.searchInput {
+    width: 250px;
+    padding: 5px 30px 5px 10px;
+    border: 1px solid #F2F3F7;
+    border-radius: 4px 0 0 4px;
+    height: 30px;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.searchInput:focus {
+    border-color: #3461FF;
+    box-shadow: 0 0 0 2px rgba(52, 97, 255, 0.2);
+}
+
+.searchIcon {
+    color: #3461FF;
+    position: absolute;
+    right: 10px;
+    font-size: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 0 4px 4px 0;
+}
+
+.searchCategory {
+    padding: 5px;
+    color: #A4B2CB;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.searchCategory:hover {
+    color: #7f8a9e;
+}
+
+.categoryContainer {
+    padding: 5px;
+    display: flex;
+}
+
+.categoryBox {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #F2F3F7;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.categoryInfo {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #F2F3F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.categoryColor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.categoryName {
+    font-size: 14px;
+    color: #7f8a9e;
+}
+
+.categoryList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categoryItem {
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.categoryItem:hover {
+    background-color: #f2f3f7;
+}
+
+@media screen and (max-width: 768px) {
+    .headerSearchbox {
+        display: block;
+    }
+
+    .headerSearchbox > h1 {
+        font-size: 24px;
+        padding: 5px;
+    }
+
+    .searchForm {
+        width: 100%;
+    }
+
+    .searchInput {
+        width: 100%;
+    }
+
+    .searchIcon {
+        right: 5px;
+    }
+}
